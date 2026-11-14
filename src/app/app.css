@@ -14,3 +14,10 @@
 @media(max-width:360px){.hero h1{font-size:1.75rem}.window-bar{padding-inline:9px}.dashboard-sidebar{display:none}.dashboard-main{padding:11px}.floating-card{gap:5px;padding:6px}.floating-card small{font-size:7px}.price-row{flex-wrap:wrap;justify-content:flex-start;gap:8px 11px}.price-row>div:last-child{flex-basis:100%}.plan-top{flex-direction:column}.recommended{font-size:9px}}
 
 .site-shell{overflow-x:hidden}
+
+.iphone-steps {
+  margin: 0 0 1.5rem;
+  padding-left: 1.25rem;
+  list-style: decimal;
+  line-height: 1.8;
+}

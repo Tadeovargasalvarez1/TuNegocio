@@ -65,6 +65,7 @@ export class App implements AfterViewInit, OnInit, OnDestroy {
   protected readonly whatsappUrl = 'https://wa.me/+59161456044';
   protected readonly instagramUrl = 'https://www.instagram.com/scsmartbo/';
   protected readonly emailUrl = 'mailto:scsmartbo@gmail.com';
+  protected readonly iphoneAppUrl = 'https://scsmartbo.tail816e9a.ts.net:10000/';
 
   protected readonly plans: Plan[] = [
     {
