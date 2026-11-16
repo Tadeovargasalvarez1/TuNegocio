@@ -66,6 +66,8 @@ export class App implements AfterViewInit, OnInit, OnDestroy {
   protected readonly instagramUrl = 'https://www.instagram.com/scsmartbo/';
   protected readonly emailUrl = 'mailto:scsmartbo@gmail.com';
   protected readonly iphoneAppUrl = 'https://scsmartbo.tail816e9a.ts.net:10000/';
+  // El APK (60 MB) supera el límite de 25 MB por archivo de Cloudflare Pages: se sirve desde el mini PC.
+  protected readonly androidApkUrl = 'https://scsmartbo.tail816e9a.ts.net:10000/descargas/TuNegocio-Movil.apk';
 
   protected readonly plans: Plan[] = [
     {
