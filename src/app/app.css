@@ -70,3 +70,16 @@
   border-radius: 1.2rem;
   margin-bottom: 1rem;
 }
+
+.iphone-guide-link{color:var(--green);font-weight:700;text-decoration:none;border-bottom:1px solid currentColor}
+.iphone-tutorial{margin-top:48px;scroll-margin-top:90px}
+.iphone-tutorial h2{margin:15px 0 8px;font-size:clamp(1.75rem,4vw,3rem);line-height:1.1;letter-spacing:-.05em}
+.iphone-tutorial-lead{margin:0 0 28px;color:var(--muted);font-size:14px}
+.iphone-step-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;margin:0;padding:0;list-style:none}
+.iphone-step{position:relative;padding:14px 14px 18px;background:#fff;border:1px solid var(--line);border-radius:12px}
+.iphone-step img{display:block;width:100%;height:auto;border-radius:10px;border:1px solid var(--line)}
+.iphone-step-number{position:absolute;top:4px;left:4px;display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--green);color:var(--ink);font-weight:800;box-shadow:0 4px 12px #00ad6e40}
+.iphone-step h3{margin:14px 0 6px;font-size:15px;letter-spacing:-.02em}
+.iphone-step p{margin:0;color:var(--muted);font-size:13px;line-height:1.6}
+@media (max-width:900px){.iphone-step-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:540px){.iphone-step-grid{grid-template-columns:minmax(0,1fr);max-width:340px;margin-inline:auto}}
